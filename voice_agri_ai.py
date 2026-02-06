@@ -56,6 +56,7 @@ speak("Hello! I am your offline Agriculture AI assistant. You can ask me any que
 time.sleep(1)
 
 while True:
+    
     query = listen()
     if query:
         if query.lower() in ["exit", "quit", "stop"]:

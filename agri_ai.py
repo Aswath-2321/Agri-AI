@@ -9,6 +9,7 @@ engine.setProperty('volume', 1.0)
 # OpenAI API key
 openai.api_key = "YOUR_API_KEY_HERE"
 
+
 def get_agri_response(question):
     try:
         response = openai.ChatCompletion.create(
